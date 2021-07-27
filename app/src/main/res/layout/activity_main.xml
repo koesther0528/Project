@@ -32,8 +32,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#E3A5A2"
-        android:text="@string/text_main_2"
         android:textSize="22dp"
+        android:text="@string/text_main_2"
         android:fontFamily="@font/j"
         android:gravity="center"/>
 
