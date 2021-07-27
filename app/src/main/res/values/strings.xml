@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">Project</string>
     <string name="text_main">찰떡궁합</string>
-    <string name="text_main2">당신의 짝을 찾아드립니다!</string>
+    <string name="text_main_2">당신의 짝을 찾아드립니다!</string>
+    <string name="text_main_3">상대와 보고 싶은 궁합을 선택해주세요!</string>
+    <string name="text_main_4">5가지의 궁합 중 하나를 선택해주세요.</string>
+    <string name="main2_btn1">mbti 궁합</string>
+    <string name="main2_btn2">혈액형 궁합</string>
+    <string name="main2_btn3">별자리 궁합</string>
+    <string name="main2_btn4">이름 궁합</string>
+    <string name="main2_btn5">띠 궁합</string>
 </resources>
