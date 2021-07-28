@@ -9,4 +9,8 @@
     <string name="main2_btn3">별자리 궁합</string>
     <string name="main2_btn4">이름 궁합</string>
     <string name="main2_btn5">띠 궁합</string>
+    <string name="text_main5">mbti 궁합</string>
+    <string name="text_main6">당신의 mbti를 선택해주세요.</string>
+    <string name="text_main7">상대의 mbti를 선택해주세요.</string>
+    <string name="result">결과 보기!</string>
 </resources>
