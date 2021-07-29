@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="별자리 궁합"
+        android:textSize="50dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/j"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/p1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_main10"
+        android:layout_marginTop="40dp"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/j"
+        android:gravity="center"/>
+
+    <Spinner
+        android:id="@+id/mbti1"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="#FFE5E5"
+        android:entries="@array/star"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/text_main11"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/j"
+        android:gravity="center"/>
+
+    <Spinner
+        android:id="@+id/mbti2"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="60dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="#FFE5E5"
+        android:entries="@array/star"
+        android:gravity="center"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#FFE5E5"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:text="결과보기!"
+            android:fontFamily="@font/j"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</LinearLayout>
