@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context=".MainActivity5">
+    tools:context=".MainActivity7">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="별자리 궁합"
+        android:text="띠 궁합"
         android:textSize="50dp"
         android:textColor="#000000"
         android:fontFamily="@font/j"
@@ -27,7 +27,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/text_main10"
+        android:text="당신의 띠를 선택해주세요."
         android:layout_marginTop="40dp"
         android:textSize="25dp"
         android:textColor="#000000"
@@ -40,15 +40,15 @@
         android:layout_marginTop="20dp"
         android:layout_width="300dp"
         android:layout_height="60dp"
-        android:background="#FFC8C8"
-        android:entries="@array/star"
+        android:background="#FF9595"
+        android:entries="@array/ddi"
         android:gravity="center"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:text="@string/text_main11"
+        android:text="상대의 띠를 선택해주세요."
         android:textSize="25dp"
         android:textColor="#000000"
         android:fontFamily="@font/j"
@@ -61,8 +61,8 @@
         android:layout_marginBottom="60dp"
         android:layout_width="300dp"
         android:layout_height="60dp"
-        android:background="#FFC8C8"
-        android:entries="@array/star"
+        android:background="#FF9595"
+        android:entries="@array/ddi"
         android:gravity="center"/>
     <LinearLayout
         android:orientation="vertical"
@@ -74,12 +74,14 @@
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_marginTop="50dp"
-            android:backgroundTint="#FFC8C8"
+            android:backgroundTint="#FF9595"
             android:textColor="#000000"
             android:textSize="30dp"
-            android:text="@string/result"
+            android:text="결과보기!"
             android:fontFamily="@font/j"
             android:gravity="center"/>
 
     </LinearLayout>
+
+
 </LinearLayout>
