@@ -21,5 +21,9 @@
     <string name="ab">AB</string>
     <string name="text_main10">당신의 별자리를 선택해주세요.</string>
     <string name="text_main11">상대의 별자리를 선택해주세요.</string>
+    <string name="result_0__30">0~30%</string>
+    <string name="result_0_30">당신과 상대방은 맞지않는 궁합이군요.찰떡궁합인 다른 사람을 찾아보아요!</string>
+    <string name="result_40__60">40~60%</string>
+    <string name="result_70__100">70~100%</string>
 
 </resources>
