@@ -34,49 +34,16 @@
         android:fontFamily="@font/j"
         android:gravity="center"/>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_marginTop="50dp">
+    <Spinner
+        android:id="@+id/ABO"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="#FFE5E5"
+        android:entries="@array/ABO"
+        android:gravity="center"/>
 
-        <Button
-            android:layout_width="65dp"
-            android:layout_height="60dp"
-            android:backgroundTint="#FFD2D2"
-            android:text="@string/a"
-            android:textSize="30dp"
-            android:fontFamily="@font/j"
-            android:layout_marginRight="10dp"/>
-
-        <Button
-            android:layout_width="65dp"
-            android:layout_height="60dp"
-            android:backgroundTint="#FFD2D2"
-            android:text="@string/b"
-            android:textSize="30dp"
-            android:fontFamily="@font/j"
-            android:layout_marginRight="10dp"/>
-
-        <Button
-            android:layout_width="65dp"
-            android:layout_height="60dp"
-            android:backgroundTint="#FFD2D2"
-            android:text="@string/o"
-            android:textSize="30dp"
-            android:fontFamily="@font/j"
-            android:layout_marginRight="10dp"/>
-
-        <Button
-            android:layout_width="65dp"
-            android:layout_height="60dp"
-            android:backgroundTint="#FFD2D2"
-            android:text="@string/ab"
-            android:textSize="30dp"
-            android:fontFamily="@font/j"/>
-
-    </LinearLayout>
 
     <TextView
         android:layout_width="match_parent"
@@ -88,49 +55,18 @@
         android:fontFamily="@font/j"
         android:gravity="center"/>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_marginTop="50dp">
+    <Spinner
+        android:id="@+id/ABOA"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="#FFE5E5"
+        android:entries="@array/ABO"
+        android:gravity="center"/>
 
-        <Button
-            android:layout_width="65dp"
-            android:layout_height="60dp"
-            android:backgroundTint="#FFD2D2"
-            android:text="@string/a"
-            android:textSize="30dp"
-            android:fontFamily="@font/j"
-            android:layout_marginRight="10dp"/>
 
-        <Button
-            android:layout_width="65dp"
-            android:layout_height="60dp"
-            android:backgroundTint="#FFD2D2"
-            android:text="@string/b"
-            android:textSize="30dp"
-            android:fontFamily="@font/j"
-            android:layout_marginRight="10dp"/>
 
-        <Button
-            android:layout_width="65dp"
-            android:layout_height="60dp"
-            android:backgroundTint="#FFD2D2"
-            android:text="@string/o"
-            android:textSize="30dp"
-            android:fontFamily="@font/j"
-            android:layout_marginRight="10dp"/>
-
-        <Button
-            android:layout_width="65dp"
-            android:layout_height="60dp"
-            android:backgroundTint="#FFD2D2"
-            android:text="@string/ab"
-            android:textSize="30dp"
-            android:fontFamily="@font/j"/>
-
-    </LinearLayout>
 
     <LinearLayout
         android:orientation="vertical"
