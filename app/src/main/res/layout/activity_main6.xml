@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
+    android:background="#FFFFFF"
     tools:context=".MainActivity6">
 
     <TextView
@@ -43,6 +44,8 @@
         android:layout_marginTop="20dp"
         android:ems="16"
         android:fontFamily="@font/j"
+        android:textColorHint="#000000"
+        android:background="#FFB0B0"
         android:hint="이름을 입력해주세요"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,6 +75,8 @@
         android:ems="16"
         android:fontFamily="@font/j"
         android:hint="이름을 입력해주세요"
+        android:textColorHint="#000000"
+        android:background="#FFB0B0"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
